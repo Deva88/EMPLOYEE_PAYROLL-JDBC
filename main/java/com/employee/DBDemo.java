@@ -4,7 +4,9 @@ import java.sql.Connection;
 import java.sql.Driver;
 import java.sql.DriverManager;
 import java.util.Enumeration;
-
+/*
+ *@Description:-create a payroll service database and have java program connect to database
+ */
 public class DBDemo {
     public static void main(String[] args) throws ClassNotFoundException {
         String jdbcURL = "jdbc:mysql://localhost:3306/payroll_service";
