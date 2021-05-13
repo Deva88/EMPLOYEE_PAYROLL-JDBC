@@ -4,10 +4,10 @@ import java.time.LocalDate;
 import java.util.Objects;
 
 public class EmployeePayrollData {
-    private int id;
-    private double salary;
-    private String name;
-    private LocalDate startDate;
+    public int id;
+    public static double salary;
+    public String name;
+    public LocalDate startDate;
 
     public EmployeePayrollData(Integer id, String name, Double salary) {
         this.id = id;
