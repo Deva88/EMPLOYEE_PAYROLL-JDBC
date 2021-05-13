@@ -10,7 +10,7 @@ public class EmployeePayrollDBService {
     private Connection getConnection() throws SQLException {
         String jdbcURL = "jdbc:mysql://localhost:3306/payroll_service1";
         String userName = "root";
-        String password = "SAItarun*1";
+        String password = "Deva@8824264173";
         Connection connection;
         System.out.println("Connecting to database:" + jdbcURL);
         connection = DriverManager.getConnection(jdbcURL, userName, password);
